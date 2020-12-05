@@ -5,7 +5,9 @@ Context:  OEL8 free version relies upon repos that are ever updating.  This make
 
 Task 0)
 
-In order to write-test-write any of this, a working version of artifactory and mariadb has to be installed on the dev system. This is a non-trivial task. The artifactory software used is the open source version. Artifactory supports multiple source repos and a virtual repo combining elements cherry picked from other repos. 
+In order to write-test-write any of this, a working version of artifactory and mariadb has to be installed on the dev system. This is a non-trivial task. The artifactory software used is the open source version, and requires tomcat, which threatens to clobber the existing web server on my system. The configuration for a minimal system is pretty complex, and overengineered.
+
+Artifactory supports multiple source repos and a virtual repo combining elements cherry picked from other repos. Great idea, but I'm not liking the Swiss army knife configs. 
 
 Task 1)
 
