@@ -1,6 +1,14 @@
 # local-repo-cache
 Local repo caching using artifactory
 
+**********
+
+THIS PROJECT IS ABANDONED DUE TO THE FREE VERSION OF ARTIFACTORY NOT BEING COMPATIBLE WITH EXISTING SERVICES ON MY DEV BOX.
+
+Yes, I'm bing lazy in not wanting to troubleshoot someone else's Java just to be able to do a demo project. It's an awesome idea, but the up-front hassles of trying to get the open-source version of artifactory configured on a machine with other needed services running isn't worth my time. I may revist it later if I get another dedicated system to develop with.
+
+**********
+
 Context:  OEL8 free version relies upon repos that are ever updating.  This makes control of delivery difficult.  The same issue exists with EPEL and EPEL-TESTING.  We want to regularly pull in updates from these upstream repos on a monthly basis.  We also want to retain older package versions should we need to roll back or lock installs to a particular version.  We utilize artifactory as our binary artifact repository.
 
 Task 0)
